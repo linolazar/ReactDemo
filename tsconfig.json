@@ -1,0 +1,32 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "alwaysStrict":true,
+        "allowJs":true,
+        "strictNullChecks":true,
+        "lib": [
+            "dom",
+            "es6",
+            "scripthost"
+          ],
+          "esModuleInterop": true,
+          "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ],
+    "typeRoots": [
+        "./node_modules/@types"
+    ]
+}
